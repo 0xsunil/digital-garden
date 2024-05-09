@@ -1,5 +1,6 @@
 # Generated website directory
 _site/
+docs/
 
 # Sass cache
 .sass-cache/
@@ -17,5 +18,5 @@ _includes/notes_graph.json
 _drafts/
 .DS_Store
 
-# Build folder
-docs/
+# Gemfile local
+Gemfile.lock

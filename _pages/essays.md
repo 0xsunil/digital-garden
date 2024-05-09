@@ -11,7 +11,7 @@ permalink: /essays
   {% for note in listOfNotes %}
       <div class="row">
           <div class="">
-              <a class="garden-post-link" href="{{ note.url }}">
+              <a class="internal-link garden-post-link" href="{{ note.url }}">
                   {{ note.title }}
               </a>
               <p style="margin-top: 0rem; margin-bottom: 0rem;">{% include growth-stage.html growth=note.growth %}</p>
