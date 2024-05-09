@@ -8,24 +8,34 @@ permalink: /essays
 
 {% assign listOfNotes = site.notes | where: "category", "essay" | last_modified_date_sort: false %}
 <div class="container">
-    {% for note in listOfNotes %}
-        <div class="row">
-            <div class="grid-list-title">
-                <a class="internal-link" href="{{ note.url }}">
-                    {{ note.title }}
-                </a>
+  {% for note in listOfNotes %}
+      <div class="row">
+          <div class="">
+              <a class="garden-post-link" href="{{ note.url }}">
+                  {{ note.title }}
+              </a>
+              <p style="margin-top: 0rem; margin-bottom: 0rem;">{% include growth-stage.html growth=note.growth %}</p>
+              <p style="margin-top: 0rem; margin-bottom: 0rem;">{{ note.description }}</p>
+              <!--<p style="font-size: 1em">{{ note.excerpt | strip_html | remove: "[" | remove: "]" | truncatewords: 35 }}</p>-->
+          </div>
+          <!--
+          <div class="grid-list-metadata">
+            <div class="grid-list-time">  
+                <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">
+                    <span>{% include icon-pencil.html %} {{ note.last_modified_at | date: "%-m-%y " }}</span>
+                </time>
             </div>
-            <div class="grid-list-metadata">
-              <div class="grid-list-time">
-                  <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">
-                      <span>{% include icon-pencil.html %} {{ note.last_modified_at | date: "%-m-%y " }}</span>
-                  </time>
-              </div>
-              <div class="grid-list-growth">
-                  {% include growth-stage.html growth=note.growth %}
-              </div>
+            -->
+            <!-- 
+            <div class="grid-list-growth">
+                {% include growth-stage.html growth=note.growth %}
             </div>
-        -->
+          </div>
+          -->
+      </div>
+  {% endfor %}
+</div>
+
 <style>
     @media (max-width: 600px) {
 
