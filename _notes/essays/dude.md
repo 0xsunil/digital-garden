@@ -6,6 +6,7 @@ tag: [ creative ]
 growth: growth-1
 category: essay
 changelog: "my first creative piece!"
+description: "This is the description of the post."
 ---
 
 "Dude, I used to be so insecure," she laughed as she glanced over my shoulder. I stood upright and placed the photograph back against her fridge, pinning it with a crack of the magnet greedily yearning for the steel surface. She looked young then: brown eyes looking almost red against the black mascara, her lips pulled taut over the texture of the braces underneath. Dark, thick, sideswept bangs timestamped the photo as a relic of 2009. Classically beautiful, even back then.

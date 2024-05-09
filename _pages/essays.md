@@ -11,10 +11,13 @@ permalink: /essays
     {% for note in listOfNotes %}
         <div class="row">
             <div class="grid-list-title">
-                <a class="internal-link" href="{{ note.url }}">
+                <a class="garden-post-link" href="{{ note.url }}">
                     {{ note.title }}
                 </a>
+                <p style="margin-top: 0rem; margin-bottom: 0rem;">{% include growth-stage.html growth=note.growth %}</p>
+                <p style="margin-top: 0rem; margin-bottom: 0rem;">{{ note.description }}</p>
             </div>
+            <!--
             <div class="grid-list-metadata">
               <div class="grid-list-time">
                   <time datetime="{{ note.last_modified_at | date_to_xmlschema }}">
@@ -25,6 +28,7 @@ permalink: /essays
                   {% include growth-stage.html growth=note.growth %}
               </div>
             </div>
+            -->
         </div>
     {% endfor %}
   </div>

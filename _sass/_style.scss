@@ -292,6 +292,25 @@ a {
         background-color: transparent;
       }
   }
+
+  &.garden-post-link {
+    background-color: transparent;
+    color:black;
+    font-size:x-large;
+    font-family: freight-text-pro, Georgia, serif;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: rgba($color-primary, 0.2);
+
+    &:after {
+      content:""
+    }
+
+    &:hover {
+      background-color: rgba($color-primary, 0.08);
+      text-decoration-color: $color-primary !important;
+    }
+  }
 }
 
 ul, ol {

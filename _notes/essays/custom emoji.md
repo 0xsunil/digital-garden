@@ -5,6 +5,7 @@ date: 2022-02-26
 tag: [ linguistics, internet culture ]
 growth: growth-2
 category: essay
+description: "This is the description of the post. This is the description of the post."
 ---
 
 Ah, [[emojis]]. An incredibly useful remote communication tool. *But* -- I'm pretty sure that system emojis are the perfect symbol for the age of hyper-corporatized Web 2.0:

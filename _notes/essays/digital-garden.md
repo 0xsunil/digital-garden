@@ -7,6 +7,7 @@ date: 2022-01-27
 tag: [ digital gardens, internet culture ]
 growth: growth-3
 category: essay
+description: "This is the description of the post. This is obviously the description of the post."
 ---
 
 <span class="newthought">Digital gardens</span> are a philosophy of sharing content. It's similar to blogging, but instead of sharing isolated posts each time, you post unfinished ideas that you come back to, build on, connect, and eventually grow into more polished states. It emphasizes *doing* over *getting done*.
