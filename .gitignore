@@ -16,3 +16,6 @@ _includes/notes_graph.json
 
 _drafts/
 .DS_Store
+
+# Build folder
+docs/

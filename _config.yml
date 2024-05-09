@@ -1,15 +1,15 @@
-title:               alisa.wtf
-include:             ['_pages']
-exclude:             ['_includes/notes_graph.json']
-destination:         docs/
+title: garden.sunils.in
+include: ["_pages"]
+exclude: ["_includes/notes_graph.json"]
+destination: docs/
 # You may need to change the base URL depending on your deploy configuration.
 # Specifically, when using GitHub Pages, the baseurl should point to where GitHub
 # Pages deploys your repository (which is usually the repository name).
-baseurl:             ''
+baseurl: ""
 
 # If you are using a host that cannot resolve URLs that do
 # not end with .html (such as Neocities), set this to 'true'.
-use_html_extension:  false
+use_html_extension: false
 
 # Set to `true` to open non-internal links in new tabs, or
 # set to `false` to open non-internal links in current tab.
@@ -27,8 +27,8 @@ plugins:
   - jekyll-last-modified-at
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 collections:
   notes:
@@ -44,7 +44,3 @@ defaults:
       path: "_notes/**/*.md"
     values:
       layout: "note"
-
-
-
-
