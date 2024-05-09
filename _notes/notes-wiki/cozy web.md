@@ -6,7 +6,7 @@ tag: [ internet culture]
 category: note
 ---
 
-The cozy web is the name for the areas of the social internet that are gated in some way. You might need an invitation link or even a full-blown application to visit. These spaces allow you to interact with others in a way that offers respite from the darker sides of the "wider public", whether that's ad trackers, trolls, bots, or people who know you in real life. It was originally [coined](https://studio.ribbonfarm.com/p/the-extended-internet-universe) by Venkatesh Rao. 
+The cozzzzzzzzzy web is the name for the areas of the social internet that are gated in some way. You might need an invitation link or even a full-blown application to visit. These spaces allow you to interact with others in a way that offers respite from the darker sides of the "wider public", whether that's ad trackers, trolls, bots, or people who know you in real life. It was originally [coined](https://studio.ribbonfarm.com/p/the-extended-internet-universe) by Venkatesh Rao. 
 
 **Examples**
 
